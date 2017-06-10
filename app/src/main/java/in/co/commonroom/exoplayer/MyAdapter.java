@@ -50,6 +50,7 @@ public class MyAdapter extends RecyclerView.Adapter<MyAdapter.MyViewHolder> {
                 Toast.makeText(context , "here" ,Toast.LENGTH_SHORT).show();
                 activity.releasePlayer();
                 activity.initializePlayer(holder.playerView);
+                //adaed
             }
         });
     }
