@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+ <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/fl"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:background="#000000">
+
+    <com.google.android.exoplayer2.ui.SimpleExoPlayerView android:id="@+id/video_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+    <ImageButton
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#f00"
+        android:id="@+id/ib"
+        android:src="@drawable/exo_controls_play"
+        android:layout_gravity="center"/>
+
+
+
+</FrameLayout>
+
